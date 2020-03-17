@@ -65,9 +65,10 @@ namespace Lita_Logging
                 embed.WithDescription(e.ChatMessage.Message);
                 embed.WithCurrentTimestamp();
 
-                //Chat Message Id for 
+                //Chat Message Id for "/delete {msg-id}" command
                 embed.WithFooter(e.ChatMessage.Id);
 
+                //Using a List because Webhooks can technically send up to 5 embeds
                 var list = new List<Embed>
                 {
                     embed.Build()
