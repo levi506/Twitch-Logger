@@ -1,0 +1,6 @@
+{
+  "BotUsername": "BotName",
+  "BotOAuth": "oauth:XXXXXXXXXXXXXXXXXXXXXXXXX",
+  "LoggingChannel": "ChannelHere",
+  "DiscordWebhook": "https://discordapp.com/api/webhooks/000000000000000000/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}
